@@ -1,0 +1,30 @@
+{
+    "name": "FEmbed-ChainConfig",
+    "keywords": "FEmbed, arduino, network",
+    "description": "FEmbed ChainConfig library for module config",
+    "authors":
+    {
+        "name": "Gene Kong",
+        "email": "gyx_edu@qq.com",
+        "url": "https://github.com/FastEmbedded/FEmbed-ChainConfig.git"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/FastEmbedded/FEmbed-ChainConfig.git"
+    },
+    "version": "0.1.0",
+    "frameworks": "esp8266-rtos-sdk",
+    "platforms": "custom8266",
+    "build": {
+        "flags": [
+            "-I src",
+            "-DUSE_ESPRESSIF8266=1"
+        ],
+        "srcFilter":[
+            "+<*.c>",
+            "+<*.cpp>",
+            "+<*.h>"
+        ]
+    }
+}
