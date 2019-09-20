@@ -20,4 +20,19 @@ ChainConfig::~ChainConfig()
     // TODO Auto-generated destructor stub
 }
 
+bool ChainConfig::saveConfig()
+{
+    return true;
+}
+
+bool ChainConfig::restoreConfig()
+{
+    return true;
+}
+
+bool ChainConfig::resetConfig()
+{
+    return true;
+}
+
 } /* namespace FEmbed */
