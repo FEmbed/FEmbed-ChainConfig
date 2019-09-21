@@ -1,6 +1,6 @@
 {
     "name": "FEmbed-ChainConfig",
-    "keywords": "FEmbed, arduino, network",
+    "keywords": "FEmbed, arduino, config, esp8266",
     "description": "FEmbed ChainConfig library for module config",
     "authors":
     {
