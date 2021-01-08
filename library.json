@@ -14,8 +14,8 @@
         "url": "https://github.com/FastEmbedded/FEmbed-ChainConfig.git"
     },
     "version": "0.1.0",
-    "frameworks": ["esp8266-rtos-sdk", "fembed"],
-    "platforms": ["custom8266", "ststm32"],
+    "frameworks": ["esp8266-rtos-sdk", "fembed", "espidf"],
+    "platforms": ["custom8266", "ststm32", "espressif32"],
     "build": {
         "srcFilter":[
             "+<*.c>",
