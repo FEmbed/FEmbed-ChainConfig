@@ -1,7 +1,7 @@
 /*
  * ChainConfig.cpp
  *
- *  Created on: 2019年9月20日
+ *  Created on: 2019/9/20
  *      Author: Gene Kong
  */
 

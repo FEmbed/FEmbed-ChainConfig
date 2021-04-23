@@ -1,7 +1,7 @@
 /*
  * ChainConfig.h
  *
- *  Created on: 2019年9月20日
+ *  Created on: 2019/9/20
  *      Author: Gene Kong
  */
 
@@ -51,7 +51,7 @@ struct ChainConfigOptionDescription {
     const char *description;
     const char *result_help;
 
-    uint32_t timeout;           ///< Command work timeout.
+    uint32_t timeout;                                   ///< Command work timeout.
 
     const ChainConfigOptionFiledDescription *fields;
     uint32_t n_fields_num;
