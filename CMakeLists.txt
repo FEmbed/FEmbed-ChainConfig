@@ -11,5 +11,5 @@ set(include "src"
 
 idf_component_register(SRCS "${srcs}"
                        INCLUDE_DIRS ${include}
-                       REQUIRES "fe-arduino"
+                       REQUIRES ""
                        PRIV_REQUIRES ${priv_requires})
